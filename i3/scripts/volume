@@ -1,0 +1,2 @@
+#!/bin/bash
+pactl list sinks | grep -ioP "Volume:.*?\K(\d+)%"
